@@ -1,0 +1,89 @@
+	*{
+		margin: 0; padding: 0;
+	}
+	img{width: 100%;}
+	body{
+		font-family: Verdana, Arial, Helvetica ;
+		font-size: 1em;
+	}
+	ul, li, a{text-decoration: none; list-style: none;}
+
+	.content-prodern p{text-align: center; margin: 1em auto; }
+	.menu-prodern ul{margin: 0 auto; text-align: center;}
+	
+	.header img{display: block;}
+	 
+	.fondo-content-prodern {background: #c4eeed;}
+	.content-prodern{width: 80%; margin: 0 auto; padding: 0 2em;}
+
+	.menu-prodern ul li{
+		padding: 1em;
+		border-radius: 0.5em;
+		margin: 0.5em;
+		display: inline-block;
+		background: #01a9db;
+		color: #fff;
+		font-weight: bolder;
+		font-size: 0.9em;
+	}
+	.menu-prodern ul a { vertical-align: top;}
+	.menu-prodern ul li:hover{background: #2d3e50;}
+	.menu-prodern ul li:active{background: #ecf0f1; color: #2d3e50;}
+	.menu-prodern .item-a{/*position: relative; top: 25%!important;*/ margin: inherit;}
+
+
+	.logo-prodern{ width: 17%; margin: 0 auto; }
+	.logo-prodern img{display: block; padding: 1em;}
+	
+	.footer img {display: block;}
+
+
+	a.descargar-prodern::before {
+		background-repeat: no-repeat;
+	    background-image: url("img/ico-boton.png");
+	    content: " ";
+	    width: 32px;
+	    height: 32px;    	
+	    display: inline-block;
+	    margin: -8px 5px -9px -6px;
+	}
+
+
+	.pdf-prodern{
+		width: 28%;
+		display: inline-block;
+		position: relative;
+	}
+	.pdf-prodern a img:hover {
+	    background: #000;
+	    opacity: 0.8;
+	}
+
+	.listado-pdf-prodern{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	a.descargar-prodern{
+		background: #fff;
+		padding: 0.8em;
+		border-radius: 4em;
+		position: absolute;
+		bottom: 5%;
+		left: 22%;
+		/*width: 100%;*/
+		font-size: 1em;
+		font-weight: bold;
+		border: 0px;
+		color: #2d3e50;
+	}
+	.pdf-prodern:hover a.descargar-prodern{background: #e6faff;}
+	
+	
+
+
+	@media only screen and (max-width: 767px) { 
+		.logo-prodern{ width: 50%; }
+		.pdf-prodern{width: 100%;}
+	 }
+	
